@@ -34,7 +34,6 @@ class Facts
         puts "Invalid selection: #{user_nav}. Please try again!\n"
       end
     end
-
   end
 
   def lpod_info
@@ -51,8 +50,6 @@ class Facts
       puts "Hit enter to continue..."
       gets
     end
-
-    return facts
   end
 
   def jpod_info
@@ -69,8 +66,6 @@ class Facts
       puts "Hit enter to continue..."
       gets
     end
-    
-    return facts
   end
 
   def kpod_info
@@ -86,8 +81,6 @@ class Facts
       puts "Hit enter to continue..."
       gets
     end
-
-    return facts     
   end
 
 end
